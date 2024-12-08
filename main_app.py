@@ -6,18 +6,28 @@ import pandas as pd
 
 def print_source_and_sink_report(report):
     """
-    Print the Source and Sink Report to the terminal.
+    Print the Source and Sink Report to the terminal in a grouped and summarized format.
     """
     print("\n--- Source and Sink Report ---\n")
+    grouped_report = {}  # Group by source-sink pairs
+
     for item in report:
-        if "source" in item:
-            print(f"Source: {item['source']}")
-            print(f"  Description: {item['description']}")
-            print(f"  Malware Risk Probability: {item['probability']}%\n")
-        if "sink" in item:
-            print(f"Sink: {item['sink']}")
-            print(f"  Description: {item['description']}")
-            print(f"  Malware Risk Probability: {item['probability']}%\n")
+        # Use (source, sink) tuple as the key
+        key = (item.get("source"), item.get("sink"))
+        if key not in grouped_report:
+            grouped_report[key] = {
+                "description": item["description"],
+                "probability": item["probability"]
+            }
+
+    # Generate output for each source-sink pair
+    for (source, sink), details in grouped_report.items():
+        print(f"Source: {source}")
+        print(f"Sink: {sink}")
+        print(f"  - Description: {details['description']}")
+        risk_level = "Low" if details["probability"] <= 30 else "Medium" if details["probability"] <= 70 else "High"
+        print(f"  - Risk Level: {risk_level} ({details['probability']}% probability)\n")
+
 
 
 def print_gdpr_compliance_assessment(compliance):
@@ -54,13 +64,13 @@ def main(file_path):
         # Create a DataFrame
         df = pd.DataFrame(results)
 
-        # Summarize sources and sinks for LLM analysis
+        # Summarize sources, sinks, and edges for LLM analysis
         print("Summarizing sources and sinks...")
         summary = summarize_sources_and_sinks(df)
 
         # Query the LLM for insights
         print("Querying LLM for Source and Sink Report and GDPR compliance...")
-        feedback = query_llm(summary["sources"], summary["sinks"])
+        feedback = query_llm(summary["sources"], summary["sinks"], summary["edges"])  # Pass edges
 
         # Print Source and Sink Report to the terminal
         print_source_and_sink_report(feedback["report"])
