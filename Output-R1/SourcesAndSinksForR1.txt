@@ -1,0 +1,29 @@
+# Sources - Location APIs
+<android.location.Location: double getLatitude()> -> _SOURCE_
+<android.location.Location: double getLongitude()> -> _SOURCE_
+<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)> -> _SOURCE_
+<android.location.LocationManager: android.location.Location requestLocationUpdates(java.lang.String,android.os.Bundle)> -> _SOURCE_
+<android.location.LocationManager: android.location.Location getProvider(java.lang.String)> -> _SOURCE_
+
+# Sources - Telephony and SIM information (often related to location)
+<android.telephony.TelephonyManager: java.lang.String getCellLocation()> -> _SOURCE_
+<android.telephony.TelephonyManager: int getNeighboringCellInfo()> -> _SOURCE_
+<android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()> -> _SOURCE_
+
+# Sinks - Data Transmission APIs
+<java.net.HttpURLConnection: void connect()> -> _SINK_
+<java.net.URLConnection: java.io.OutputStream getOutputStream()> -> _SINK_
+<java.net.URL: java.io.InputStream openStream()> -> _SINK_
+
+# Sinks - Logging
+<android.util.Log: int println(int,java.lang.String,java.lang.String)> -> _SINK_
+<android.util.Log: int d(java.lang.String,java.lang.String)> -> _SINK_
+<android.util.Log: int e(java.lang.String,java.lang.String)> -> _SINK_
+
+# Sinks - Intent APIs
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)> -> _SINK_
+<android.content.Intent: android.content.Intent setAction(java.lang.String)> -> _SINK_
+<android.content.Context: void sendBroadcast(android.content.Intent)> -> _SINK_
+<android.content.Context: void startActivity(android.content.Intent)> -> _SINK_
+<android.content.Context: void startService(android.content.Intent)> -> _SINK_
+

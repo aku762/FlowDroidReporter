@@ -1,0 +1,769 @@
+[main] WARN soot.jimple.infoflow.methodSummary.data.provider.LazySummaryProvider - Lazy loading summaries from a jar/zip file might throw a ClosedChannelException. Use the EagerSummaryProvider instead.
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app C:\Users\Anthony\OneDrive - University of Luxembourg\Courses\Static & Dynamic Analysis\Project\apks\com.yourdelivery.pyszne.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.034210099 seconds
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 4,915.35 MiB
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 21 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 21 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.LieferandoApplication, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.activity.BaseSearchActivity, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.activity.BaseAccountActivity, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.fragments.search.CSHFragment, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.activity.BaseAccountActivity, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.activity.BaseSearchActivity, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.activity.BaseSearchActivity, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.fragments.search.CSHFragment, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.activity.BaseAccountActivity, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Could not create call to application callback <com.yopeso.lieferando.LieferandoApplication: void onCreate()>. Local was null.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 34 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 21 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.callback.LocationObtainedListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class android.support.v4.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.activity.BaseSearchActivity, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.activity.BaseAccountActivity, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.activity.BaseSearchActivity, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.yopeso.lieferando.activity.BaseSearchActivity, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.CrashManagerListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.actionbarsherlock.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for net.hockeyapp.android.listeners.DownloadFileListener, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Could not create call to application callback <com.yopeso.lieferando.LieferandoApplication: void onCreate()>. Local was null.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[FlowDroid Timeout Watcher] WARN soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - Timeout reached, stopping the solvers...
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 26 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] WARN soot.jimple.infoflow.android.SetupApplication - Aborted callback collection because of low memory
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] WARN soot.jimple.infoflow.android.SetupApplication - Callback analysis aborted early due to time or memory exhaustion
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.CsrfBeanDefinitionParser: org.springframework.beans.factory.config.BeanDefinition getCsrfLogoutHandler)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.FormLoginBeanDefinitionParser: java.lang.String getLoginPage)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <com.google.auth.oauth2.UserCredentials: java.lang.String getClientSecret)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.UrlTag: java.lang.String createUrl)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.RequestData: java.lang.String getMethod)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.dmfs.oauth2.client.http.requests.ResourceOwnerPasswordTokenRequest: org.dmfs.httpclient.HttpRequestEntity requestEntity)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.concurrent.DelegatingSecurityContextExecutorService: java.util.concurrent.ExecutorService getDelegate)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.annotation.web.builders.HttpSecurity: org.springframework.security.config.'annotation'.web.configurers.HeadersConfigurer headers)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.EscapeBodyTag: java.lang.String readBodyContent)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.FormLoginBeanDefinitionParser: java.lang.String getLoginProcessingUrl)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.annotation.web.configurers.LogoutConfigurer: java.util.List getLogoutHandlers)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.RequestData: java.lang.String getHttpVersion)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.HttpServletRequestImpl: void parseParameters)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match:     
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 71 sources, 193 sinks, and 304 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 20 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on C:\Users\Anthony\OneDrive - University of Luxembourg\Courses\Static & Dynamic Analysis\Project\apks\com.yourdelivery.pyszne.apk with 71 sources and 193 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 4,915.35 MiB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 1.143428 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 25849 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 37 sources and 571 sinks.
+[FlowDroid Timeout Watcher] WARN soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - Timeout reached, stopping the solvers...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 814181
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 5591552
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 6364806 forward and 8732706 backward edges solved in 35 seconds, processing 10 results...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 2522 MB
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 1100 MB
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 1 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] ERROR soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Could not wait for executor termination
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1326)
+	at heros.solver.CountLatch.awaitZero(CountLatch.java:79)
+	at heros.solver.CountingThreadPoolExecutor.awaitCompletion(CountingThreadPoolExecutor.java:86)
+	at soot.jimple.infoflow.solver.executors.InterruptableExecutor.awaitCompletion(InterruptableExecutor.java:88)
+	at soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder.computeTaintPaths(ContextSensitivePathBuilder.java:270)
+	at soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder.computeTaintPaths(BatchPathBuilder.java:47)
+	at soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder.computeTaintPaths(DefaultPathBuilderFactory.java:56)
+	at soot.jimple.infoflow.AbstractInfoflow.runTaintAnalysis(AbstractInfoflow.java:1107)
+	at soot.jimple.infoflow.AbstractInfoflow.runAnalysis(AbstractInfoflow.java:634)
+	at soot.jimple.infoflow.AbstractInfoflow.runAnalysis(AbstractInfoflow.java:567)
+	at soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow.runAnalysis(SetupApplication.java:1320)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1609)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1544)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1491)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:358)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:256)
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 2 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 1169 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Path reconstruction took 2 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r2.<java.io.OutputStream: void write(byte[],int,int)>(r3, 0, $i0) on line 58 in method <com.novoda.imageloader.core.file.util.FileUtil: void copyStream(java.io.InputStream,java.io.OutputStream)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r11 = virtualinvoke $r9.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() on line 63 in method <com.novoda.imageloader.core.network.UrlNetworkManager: void retrieveImage(java.lang.String,java.io.File)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.novoda.imageloader.core.network.UrlNetworkManager: void retrieveImage(java.lang.String,java.io.File)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r11 = virtualinvoke $r9.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() in line 63
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.novoda.imageloader.core.network.UrlNetworkManager: void retrieveImage(java.lang.String,java.io.File)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r10.<com.novoda.imageloader.core.file.util.FileUtil: void copyStream(java.io.InputStream,java.io.OutputStream)>($r11, r3) in line 65
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.novoda.imageloader.core.file.util.FileUtil: void copyStream(java.io.InputStream,java.io.OutputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $i0 = virtualinvoke $r1.<java.io.InputStream: int read(byte[])>(r3) in line 54
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.novoda.imageloader.core.file.util.FileUtil: void copyStream(java.io.InputStream,java.io.OutputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r2.<java.io.OutputStream: void write(byte[],int,int)>(r3, 0, $i0) in line 58
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.novoda.imageloader.core.file.util.FileUtil: void copyStream(java.io.InputStream,java.io.OutputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r2.<java.io.OutputStream: void write(byte[],int,int)>(r3, 0, $i0) in line 58
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<javax.net.ssl.HttpsURLConnection: java.io.InputStream getInputStream()>() on line 363 in method <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke $r3.<javax.net.ssl.HttpsURLConnection: java.io.InputStream getInputStream()>() in line 363
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>($r4) in line 363
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r0.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: java.io.InputStream impl> = $r1 in line 23
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 29
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>($r6) in line 370
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 47
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r5 in line 392
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.novoda.imageloader.core.network.UrlNetworkManager: void retrieveImage(java.lang.String,java.io.File)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r10.<com.novoda.imageloader.core.file.util.FileUtil: void copyStream(java.io.InputStream,java.io.OutputStream)>($r11, r3) in line 65
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.novoda.imageloader.core.file.util.FileUtil: void copyStream(java.io.InputStream,java.io.OutputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $i0 = virtualinvoke $r1.<java.io.InputStream: int read(byte[])>(r3) in line 54
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.novoda.imageloader.core.file.util.FileUtil: void copyStream(java.io.InputStream,java.io.OutputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r2.<java.io.OutputStream: void write(byte[],int,int)>(r3, 0, $i0) in line 58
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.novoda.imageloader.core.file.util.FileUtil: void copyStream(java.io.InputStream,java.io.OutputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r2.<java.io.OutputStream: void write(byte[],int,int)>(r3, 0, $i0) in line 58
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() on line 342 in method <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() in line 342
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>($r4) in line 342
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r0.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: java.io.InputStream impl> = $r1 in line 23
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 29
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>($r6) in line 349
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 47
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r5 in line 371
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.novoda.imageloader.core.network.UrlNetworkManager: void retrieveImage(java.lang.String,java.io.File)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r10.<com.novoda.imageloader.core.file.util.FileUtil: void copyStream(java.io.InputStream,java.io.OutputStream)>($r11, r3) in line 65
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.novoda.imageloader.core.file.util.FileUtil: void copyStream(java.io.InputStream,java.io.OutputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $i0 = virtualinvoke $r1.<java.io.InputStream: int read(byte[])>(r3) in line 54
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.novoda.imageloader.core.file.util.FileUtil: void copyStream(java.io.InputStream,java.io.OutputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r2.<java.io.OutputStream: void write(byte[],int,int)>(r3, 0, $i0) in line 58
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.novoda.imageloader.core.file.util.FileUtil: void copyStream(java.io.InputStream,java.io.OutputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r2.<java.io.OutputStream: void write(byte[],int,int)>(r3, 0, $i0) in line 58
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r5, $r1) on line 56 in method <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $d0 = virtualinvoke $r1.<android.location.Location: double getLongitude()>() on line 103 in method <com.yopeso.lieferando.fragments.search.CSHFragment$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.CSHFragment$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $d0 = virtualinvoke $r1.<android.location.Location: double getLongitude()>() in line 103
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.CSHFragment$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r6 = staticinvoke <java.lang.String: java.lang.String valueOf(double)>($d0) in line 103
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.CSHFragment$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r2.<com.yopeso.lieferando.fragments.search.CSHFragment: void performGPSRequest(java.lang.String,java.lang.String)>($r5, $r6) in line 103
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet: void performGPSRequest(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r3.<com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>($r1, $r2, $r4) in line 547
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4[1] = $r2 in line 18
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r1 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>("http://maps.googleapis.com/maps/api/geocode/json?latlng=%s,%s&sensor=false", $r4) in line 18
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke r0.<com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>(0, $r1, null, r3, r3) in line 18
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r10 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r1) in line 56
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r1 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.String toString()>() in line 56
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r5, $r1) in line 56
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $d0 = virtualinvoke $r1.<android.location.Location: double getLatitude()>() on line 122 in method <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $d0 = virtualinvoke $r1.<android.location.Location: double getLatitude()>() in line 122
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r6 = staticinvoke <java.lang.String: java.lang.String valueOf(double)>($d0) in line 122
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r5.<java.lang.StringBuilder: void <init>(java.lang.String)>($r6) in line 122
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r6 = virtualinvoke $r5.<java.lang.StringBuilder: java.lang.String toString()>() in line 122
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r2.<com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet: void performGPSRequest(java.lang.String,java.lang.String)>($r6, $r7) in line 122
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet: void performGPSRequest(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r3.<com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>($r1, $r2, $r4) in line 547
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4[0] = $r1 in line 18
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r1 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>("http://maps.googleapis.com/maps/api/geocode/json?latlng=%s,%s&sensor=false", $r4) in line 18
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke r0.<com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>(0, $r1, null, r3, r3) in line 18
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r10 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r1) in line 56
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r1 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.String toString()>() in line 56
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r5, $r1) in line 56
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $d0 = virtualinvoke $r1.<android.location.Location: double getLatitude()>() on line 103 in method <com.yopeso.lieferando.fragments.search.CSHFragment$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.CSHFragment$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $d0 = virtualinvoke $r1.<android.location.Location: double getLatitude()>() in line 103
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.CSHFragment$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r5 = staticinvoke <java.lang.String: java.lang.String valueOf(double)>($d0) in line 103
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.CSHFragment$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r2.<com.yopeso.lieferando.fragments.search.CSHFragment: void performGPSRequest(java.lang.String,java.lang.String)>($r5, $r6) in line 103
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet: void performGPSRequest(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r3.<com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>($r1, $r2, $r4) in line 547
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4[0] = $r1 in line 18
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r1 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>("http://maps.googleapis.com/maps/api/geocode/json?latlng=%s,%s&sensor=false", $r4) in line 18
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke r0.<com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>(0, $r1, null, r3, r3) in line 18
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r10 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r1) in line 56
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r1 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.String toString()>() in line 56
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r5, $r1) in line 56
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $d0 = virtualinvoke $r1.<android.location.Location: double getLongitude()>() on line 122 in method <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $d0 = virtualinvoke $r1.<android.location.Location: double getLongitude()>() in line 122
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r7 = staticinvoke <java.lang.String: java.lang.String valueOf(double)>($d0) in line 122
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r5.<java.lang.StringBuilder: void <init>(java.lang.String)>($r7) in line 122
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r7 = virtualinvoke $r5.<java.lang.StringBuilder: java.lang.String toString()>() in line 122
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet$1: void onLocationChanged(android.location.Location)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r2.<com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet: void performGPSRequest(java.lang.String,java.lang.String)>($r6, $r7) in line 122
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.tablet.search.SearchMainFragmentTablet: void performGPSRequest(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r3.<com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>($r1, $r2, $r4) in line 547
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4[1] = $r2 in line 18
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r1 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>("http://maps.googleapis.com/maps/api/geocode/json?latlng=%s,%s&sensor=false", $r4) in line 18
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.GoogleAPIRequest: void <init>(java.lang.String,java.lang.String,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke r0.<com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>(0, $r1, null, r3, r3) in line 18
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r10 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r1) in line 56
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r1 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.String toString()>() in line 56
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r5, $r1) in line 56
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r18.<java.io.OutputStream: void write(byte[],int,int)>(r2, 0, $i2) on line 112 in method <net.hockeyapp.android.tasks.DownloadFileTask: java.lang.Boolean doInBackground(java.lang.String[])> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<javax.net.ssl.HttpsURLConnection: java.io.InputStream getInputStream()>() on line 363 in method <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke $r3.<javax.net.ssl.HttpsURLConnection: java.io.InputStream getInputStream()>() in line 363
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>($r4) in line 363
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r0.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: java.io.InputStream impl> = $r1 in line 23
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 29
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>($r6) in line 370
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 47
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r5 in line 392
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <net.hockeyapp.android.tasks.DownloadFileTask: java.lang.Boolean doInBackground(java.lang.String[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r17.<java.io.BufferedInputStream: void <init>(java.io.InputStream)>($r10) in line 103
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <net.hockeyapp.android.tasks.DownloadFileTask: java.lang.Boolean doInBackground(java.lang.String[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $i2 = virtualinvoke $r17.<java.io.InputStream: int read(byte[])>(r2) in line 109
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <net.hockeyapp.android.tasks.DownloadFileTask: java.lang.Boolean doInBackground(java.lang.String[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r18.<java.io.OutputStream: void write(byte[],int,int)>(r2, 0, $i2) in line 112
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() on line 342 in method <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() in line 342
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>($r4) in line 342
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r0.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: java.io.InputStream impl> = $r1 in line 23
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 29
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>($r6) in line 349
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 47
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r5 in line 371
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <net.hockeyapp.android.tasks.DownloadFileTask: java.lang.Boolean doInBackground(java.lang.String[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r17.<java.io.BufferedInputStream: void <init>(java.io.InputStream)>($r10) in line 103
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <net.hockeyapp.android.tasks.DownloadFileTask: java.lang.Boolean doInBackground(java.lang.String[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $i2 = virtualinvoke $r17.<java.io.InputStream: int read(byte[])>(r2) in line 109
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <net.hockeyapp.android.tasks.DownloadFileTask: java.lang.Boolean doInBackground(java.lang.String[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r18.<java.io.OutputStream: void write(byte[],int,int)>(r2, 0, $i2) in line 112
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r10 = virtualinvoke $r7.<java.net.URLConnection: java.io.InputStream getInputStream()>() on line 103 in method <net.hockeyapp.android.tasks.DownloadFileTask: java.lang.Boolean doInBackground(java.lang.String[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <net.hockeyapp.android.tasks.DownloadFileTask: java.lang.Boolean doInBackground(java.lang.String[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r10 = virtualinvoke $r7.<java.net.URLConnection: java.io.InputStream getInputStream()>() in line 103
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <net.hockeyapp.android.tasks.DownloadFileTask: java.lang.Boolean doInBackground(java.lang.String[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r17.<java.io.BufferedInputStream: void <init>(java.io.InputStream)>($r10) in line 103
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <net.hockeyapp.android.tasks.DownloadFileTask: java.lang.Boolean doInBackground(java.lang.String[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $i2 = virtualinvoke $r17.<java.io.InputStream: int read(byte[])>(r2) in line 109
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <net.hockeyapp.android.tasks.DownloadFileTask: java.lang.Boolean doInBackground(java.lang.String[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r18.<java.io.OutputStream: void write(byte[],int,int)>(r2, 0, $i2) in line 112
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r1, $r2) on line 57 in method <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r4.<android.view.View: android.view.View findViewById(int)>($i0) on line 227 in method <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke $r4.<android.view.View: android.view.View findViewById(int)>($i0) in line 227
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r5 = (android.widget.EditText) $r4 in line 227
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: android.widget.EditText mPassword> = $r5 in line 227
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r9.<com.yopeso.lieferando.fragments.search.RegistrationFragment$2: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>(r0) in line 234
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment$2: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 234
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: void setGender(java.lang.String)>("m") in line 245
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void setGender(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 482
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r19.<com.yopeso.lieferando.fragments.search.RegistrationFragment$3: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>(r0) in line 263
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment$3: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 263
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r21.<com.yopeso.lieferando.fragments.search.RegistrationFragment$4: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>(r0) in line 294
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment$4: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 294
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 305
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <dummyMainClass: com.yopeso.lieferando.fragments.search.RegistrationFragment dummyMainMethod_com_yopeso_lieferando_fragments_search_RegistrationFragment(android.content.Intent,android.app.Activity)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r0.<com.yopeso.lieferando.custom.LRFragment: void onStart()>()
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.custom.LRFragment: void onStart()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke r0.<com.actionbarsherlock.app.SherlockFragment: void onStart()>() in line 83
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.actionbarsherlock.app.SherlockFragment: void onStart()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.custom.LRFragment: void onStart()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 85
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <dummyMainClass: com.yopeso.lieferando.fragments.search.RegistrationFragment dummyMainMethod_com_yopeso_lieferando_fragments_search_RegistrationFragment(android.content.Intent,android.app.Activity)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: void onClick(android.view.View)>($r2)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onClick(android.view.View)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: void registerButtonPressed()>() in line 311
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void registerButtonPressed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $z0 = virtualinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: boolean validateTheForm()>() in line 524
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: boolean validateTheForm()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: com.yopeso.lieferando.LieferandoApplication getApplicationCore()>() in line 361
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.custom.LRFragment: com.yopeso.lieferando.LieferandoApplication getApplicationCore()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return null in line 60
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: boolean validateTheForm()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return z0 in line 467
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void registerButtonPressed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $z0 = specialinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: boolean isAgbConfirmed()>() in line 525
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: boolean isAgbConfirmed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return 1 in line 550
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void registerButtonPressed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: void showLoadingIndicator(int)>($i0) in line 526
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.custom.LRFragment: void showLoadingIndicator(int)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke r0.<com.yopeso.lieferando.custom.LRFragment: void showLoadingIndicator(java.lang.String)>($r2) in line 119
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.custom.LRFragment: void showLoadingIndicator(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 127
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.custom.LRFragment: void showLoadingIndicator(int)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 120
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void registerButtonPressed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r2 = virtualinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: com.android.volley.RequestQueue getRequestQueue()>() in line 527
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.custom.LRFragment: com.android.volley.RequestQueue getRequestQueue()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r2 in line 72
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void registerButtonPressed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: org.json.JSONObject saveDatesOnUserData()>() in line 527
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: org.json.JSONObject saveDatesOnUserData()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: android.widget.EditText mPassword> in line 575
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: org.json.JSONObject saveDatesOnUserData()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r5 = virtualinvoke $r4.<android.widget.EditText: android.text.Editable getText()>() in line 575
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: org.json.JSONObject saveDatesOnUserData()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r6 = interfaceinvoke $r5.<android.text.Editable: java.lang.String toString()>() in line 575
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: org.json.JSONObject saveDatesOnUserData()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke r2.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>("password", $r6) in line 575
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: org.json.JSONObject saveDatesOnUserData()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return r2 in line 586
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void registerButtonPressed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r3.<com.yopeso.lieferando.net.requests.RegisterRequest: void <init>(org.json.JSONObject,com.yopeso.lieferando.net.requests.base.VolleyListener)>($r4, $r1) in line 527
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.RegisterRequest: void <init>(org.json.JSONObject,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r6 = staticinvoke <com.newrelic.agent.android.instrumentation.JSONObjectInstrumentation: java.lang.String toString(org.json.JSONObject)>(r2) in line 24
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.JSONObjectInstrumentation: java.lang.String toString(org.json.JSONObject)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r2 = virtualinvoke $r0.<org.json.JSONObject: java.lang.String toString()>() in line 35
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.JSONObjectInstrumentation: java.lang.String toString(org.json.JSONObject)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r2 in line 38
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.RegisterRequest: void <init>(org.json.JSONObject,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke r0.<com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>(1, $r5, $r6, r1, r1) in line 24
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r10 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r2) in line 57
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r2 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.String toString()>() in line 57
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r1, $r2) in line 57
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r4.<android.view.View: android.view.View findViewById(int)>($i0) on line 230 in method <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke $r4.<android.view.View: android.view.View findViewById(int)>($i0) in line 230
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r5 = (android.widget.EditText) $r4 in line 230
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: android.widget.EditText mPasswordConfirmation> = $r5 in line 230
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r9.<com.yopeso.lieferando.fragments.search.RegistrationFragment$2: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>(r0) in line 234
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment$2: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 234
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: void setGender(java.lang.String)>("m") in line 245
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void setGender(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 482
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r19.<com.yopeso.lieferando.fragments.search.RegistrationFragment$3: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>(r0) in line 263
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment$3: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 263
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r21.<com.yopeso.lieferando.fragments.search.RegistrationFragment$4: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>(r0) in line 294
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment$4: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 294
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityCreated(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 305
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <dummyMainClass: com.yopeso.lieferando.fragments.search.RegistrationFragment dummyMainMethod_com_yopeso_lieferando_fragments_search_RegistrationFragment(android.content.Intent,android.app.Activity)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r0.<com.yopeso.lieferando.custom.LRFragment: void onStart()>()
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.custom.LRFragment: void onStart()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke r0.<com.actionbarsherlock.app.SherlockFragment: void onStart()>() in line 83
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.actionbarsherlock.app.SherlockFragment: void onStart()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.custom.LRFragment: void onStart()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 85
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <dummyMainClass: com.yopeso.lieferando.fragments.search.RegistrationFragment dummyMainMethod_com_yopeso_lieferando_fragments_search_RegistrationFragment(android.content.Intent,android.app.Activity)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: void onClick(android.view.View)>($r2)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onClick(android.view.View)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $z0 = specialinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: boolean isAgbConfirmed()>() in line 347
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: boolean isAgbConfirmed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r2.<com.yopeso.lieferando.fragments.search.RegistrationFragment$7: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>(r0) in line 541
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment$7: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 541
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: boolean isAgbConfirmed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r0 := @this: com.yopeso.lieferando.fragments.search.RegistrationFragment
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onClick(android.view.View)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r0 := @this: com.yopeso.lieferando.fragments.search.RegistrationFragment
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <dummyMainClass: com.yopeso.lieferando.fragments.search.RegistrationFragment dummyMainMethod_com_yopeso_lieferando_fragments_search_RegistrationFragment(android.content.Intent,android.app.Activity)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityResult(int,int,android.content.Intent)>(0, 0, null)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void onActivityResult(int,int,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 655
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <dummyMainClass: com.yopeso.lieferando.fragments.search.RegistrationFragment dummyMainMethod_com_yopeso_lieferando_fragments_search_RegistrationFragment(android.content.Intent,android.app.Activity)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r3.<com.yopeso.lieferando.fragments.search.RegistrationFragment$4: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>($r0)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment$4: void <init>(com.yopeso.lieferando.fragments.search.RegistrationFragment)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 294
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <dummyMainClass: com.yopeso.lieferando.fragments.search.RegistrationFragment dummyMainMethod_com_yopeso_lieferando_fragments_search_RegistrationFragment(android.content.Intent,android.app.Activity)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r0.<com.actionbarsherlock.app.SherlockFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>(null, null)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.actionbarsherlock.app.SherlockFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke r0.<com.actionbarsherlock.app.SherlockFragment: void onCreateOptionsMenu(com.actionbarsherlock.view.Menu,com.actionbarsherlock.view.MenuInflater)>($r3, $r4) in line 40
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.actionbarsherlock.app.SherlockFragment: void onCreateOptionsMenu(com.actionbarsherlock.view.Menu,com.actionbarsherlock.view.MenuInflater)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r0 := @this: com.actionbarsherlock.app.SherlockFragment
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.actionbarsherlock.app.SherlockFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r0 := @this: com.actionbarsherlock.app.SherlockFragment
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <dummyMainClass: com.yopeso.lieferando.fragments.search.RegistrationFragment dummyMainMethod_com_yopeso_lieferando_fragments_search_RegistrationFragment(android.content.Intent,android.app.Activity)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r0.<com.actionbarsherlock.app.SherlockFragment: boolean onOptionsItemSelected(android.view.MenuItem)>(null)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.actionbarsherlock.app.SherlockFragment: boolean onOptionsItemSelected(android.view.MenuItem)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $z0 = virtualinvoke r0.<com.actionbarsherlock.app.SherlockFragment: boolean onOptionsItemSelected(com.actionbarsherlock.view.MenuItem)>($r2) in line 60
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: boolean onOptionsItemSelected(com.actionbarsherlock.view.MenuItem)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: void registerButtonPressed()>() in line 206
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void registerButtonPressed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $z0 = specialinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: boolean isAgbConfirmed()>() in line 525
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: boolean isAgbConfirmed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return 1 in line 550
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void registerButtonPressed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: void showLoadingIndicator(int)>($i0) in line 526
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.custom.LRFragment: void showLoadingIndicator(int)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke r0.<com.yopeso.lieferando.custom.LRFragment: void showLoadingIndicator(java.lang.String)>($r2) in line 119
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.custom.LRFragment: void showLoadingIndicator(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 127
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.custom.LRFragment: void showLoadingIndicator(int)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 120
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void registerButtonPressed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r2 = virtualinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: com.android.volley.RequestQueue getRequestQueue()>() in line 527
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.custom.LRFragment: com.android.volley.RequestQueue getRequestQueue()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r2 in line 72
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void registerButtonPressed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: org.json.JSONObject saveDatesOnUserData()>() in line 527
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: org.json.JSONObject saveDatesOnUserData()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = r0.<com.yopeso.lieferando.fragments.search.RegistrationFragment: android.widget.EditText mPasswordConfirmation> in line 576
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: org.json.JSONObject saveDatesOnUserData()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r5 = virtualinvoke $r4.<android.widget.EditText: android.text.Editable getText()>() in line 576
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: org.json.JSONObject saveDatesOnUserData()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r6 = interfaceinvoke $r5.<android.text.Editable: java.lang.String toString()>() in line 576
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: org.json.JSONObject saveDatesOnUserData()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke r2.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>("password_repeat", $r6) in line 576
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: org.json.JSONObject saveDatesOnUserData()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return r2 in line 586
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.fragments.search.RegistrationFragment: void registerButtonPressed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r3.<com.yopeso.lieferando.net.requests.RegisterRequest: void <init>(org.json.JSONObject,com.yopeso.lieferando.net.requests.base.VolleyListener)>($r4, $r1) in line 527
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.RegisterRequest: void <init>(org.json.JSONObject,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r6 = staticinvoke <com.newrelic.agent.android.instrumentation.JSONObjectInstrumentation: java.lang.String toString(org.json.JSONObject)>(r2) in line 24
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.JSONObjectInstrumentation: java.lang.String toString(org.json.JSONObject)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r2 = virtualinvoke $r0.<org.json.JSONObject: java.lang.String toString()>() in line 35
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.JSONObjectInstrumentation: java.lang.String toString(org.json.JSONObject)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r2 in line 38
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.RegisterRequest: void <init>(org.json.JSONObject,com.yopeso.lieferando.net.requests.base.VolleyListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke r0.<com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>(1, $r5, $r6, r1, r1) in line 24
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r10 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r2) in line 57
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r2 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.String toString()>() in line 57
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.yopeso.lieferando.net.requests.base.JsonRequest: void <init>(int,java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r1, $r2) in line 57
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink $r0 = virtualinvoke $r0.<java.lang.String: java.lang.String replace(java.lang.CharSequence,java.lang.CharSequence)>($r6, $r7) on line 81 in method <com.facebook.internal.Logger: java.lang.String replaceStrings(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<javax.net.ssl.HttpsURLConnection: java.io.InputStream getInputStream()>() on line 363 in method <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke $r3.<javax.net.ssl.HttpsURLConnection: java.io.InputStream getInputStream()>() in line 363
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>($r4) in line 363
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r0.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: java.io.InputStream impl> = $r1 in line 23
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 29
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>($r6) in line 370
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 47
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpsURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r5 in line 392
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>($r4) in line 342
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r0.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: java.io.InputStream impl> = $r1 in line 23
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 29
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>($r6) in line 349
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 47
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r5 in line 371
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r3 = $r10 in line 315
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r11 = staticinvoke <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>(r3, $r0, $r1, 0) in line 324
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r3 = staticinvoke <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>($r0) in line 345
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r6.<java.io.BufferedInputStream: void <init>(java.io.InputStream)>($r0) in line 526
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> throw $r5 in line 541
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r7 in line 350
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r11 = staticinvoke <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>(r3, $r0, $r1, 0) in line 324
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r3 = staticinvoke <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>($r0) in line 345
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r6.<java.io.BufferedInputStream: void <init>(java.io.InputStream)>($r0) in line 526
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r7.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r6) in line 527
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $i0 = virtualinvoke $r7.<java.io.InputStreamReader: int read(char[])>(r1) in line 533
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r8.<java.lang.StringBuilder: java.lang.StringBuilder append(char[],int,int)>(r1, 0, $i0) in line 534
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke $r8.<java.lang.StringBuilder: java.lang.String toString()>() in line 537
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r4 in line 537
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r5[1] = $r3 in line 348
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> staticinvoke <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,java.lang.String,java.lang.String,java.lang.Object[])>($r4, "Response", "Response (raw)\n  Size: %d\n  Response:\n%s\n", $r5) in line 346
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,java.lang.String,java.lang.String,java.lang.Object[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r2 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>($r2, $r3) in line 58
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,java.lang.String,java.lang.String,java.lang.Object[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> staticinvoke <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,int,java.lang.String,java.lang.String)>($r0, 3, $r1, $r2) in line 59
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,int,java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r2 = staticinvoke <com.facebook.internal.Logger: java.lang.String replaceStrings(java.lang.String)>($r2) in line 65
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Logger: java.lang.String replaceStrings(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r0 = virtualinvoke $r0.<java.lang.String: java.lang.String replace(java.lang.CharSequence,java.lang.CharSequence)>($r6, $r7) in line 81
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() on line 342 in method <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() in line 342
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>($r4) in line 342
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r0.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: java.io.InputStream impl> = $r1 in line 23
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void <init>(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 29
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r5.<com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>($r6) in line 349
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.io.CountingInputStream: void addStreamCompleteListener(com.newrelic.agent.android.instrumentation.io.StreamCompleteListener)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return in line 47
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.newrelic.agent.android.instrumentation.HttpURLConnectionExtension: java.io.InputStream getInputStream()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r5 in line 371
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r3 = $r10 in line 315
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r11 = staticinvoke <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>(r3, $r0, $r1, 0) in line 324
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r3 = staticinvoke <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>($r0) in line 345
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r6.<java.io.BufferedInputStream: void <init>(java.io.InputStream)>($r0) in line 526
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> throw $r5 in line 541
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r7 in line 350
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r11 = staticinvoke <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>(r3, $r0, $r1, 0) in line 324
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r3 = staticinvoke <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>($r0) in line 345
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r6.<java.io.BufferedInputStream: void <init>(java.io.InputStream)>($r0) in line 526
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r7.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r6) in line 527
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $i0 = virtualinvoke $r7.<java.io.InputStreamReader: int read(char[])>(r1) in line 533
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r8.<java.lang.StringBuilder: java.lang.StringBuilder append(char[],int,int)>(r1, 0, $i0) in line 534
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke $r8.<java.lang.StringBuilder: java.lang.String toString()>() in line 537
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r4 in line 537
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r5[1] = $r3 in line 348
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> staticinvoke <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,java.lang.String,java.lang.String,java.lang.Object[])>($r4, "Response", "Response (raw)\n  Size: %d\n  Response:\n%s\n", $r5) in line 346
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,java.lang.String,java.lang.String,java.lang.Object[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r2 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>($r2, $r3) in line 58
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,java.lang.String,java.lang.String,java.lang.Object[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> staticinvoke <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,int,java.lang.String,java.lang.String)>($r0, 3, $r1, $r2) in line 59
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,int,java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r2 = staticinvoke <com.facebook.internal.Logger: java.lang.String replaceStrings(java.lang.String)>($r2) in line 65
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Logger: java.lang.String replaceStrings(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r0 = virtualinvoke $r0.<java.lang.String: java.lang.String replace(java.lang.CharSequence,java.lang.CharSequence)>($r6, $r7) in line 81
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r10 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() on line 315 in method <com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r10 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() in line 315
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r3 = $r10 in line 315
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r11 = staticinvoke <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>(r3, $r0, $r1, 0) in line 324
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r3 = staticinvoke <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>($r0) in line 345
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r6.<java.io.BufferedInputStream: void <init>(java.io.InputStream)>($r0) in line 526
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r7.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r6) in line 527
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $i0 = virtualinvoke $r7.<java.io.InputStreamReader: int read(char[])>(r1) in line 533
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r8.<java.lang.StringBuilder: java.lang.StringBuilder append(char[],int,int)>(r1, 0, $i0) in line 534
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke $r8.<java.lang.StringBuilder: java.lang.String toString()>() in line 537
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Utility: java.lang.String readStreamToString(java.io.InputStream)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r4 in line 537
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r5[1] = $r3 in line 348
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.Response: java.util.List createResponsesFromStream(java.io.InputStream,java.net.HttpURLConnection,com.facebook.RequestBatch,boolean)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> staticinvoke <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,java.lang.String,java.lang.String,java.lang.Object[])>($r4, "Response", "Response (raw)\n  Size: %d\n  Response:\n%s\n", $r5) in line 346
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,java.lang.String,java.lang.String,java.lang.Object[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r2 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>($r2, $r3) in line 58
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,java.lang.String,java.lang.String,java.lang.Object[])>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> staticinvoke <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,int,java.lang.String,java.lang.String)>($r0, 3, $r1, $r2) in line 59
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Logger: void log(com.facebook.LoggingBehavior,int,java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r2 = staticinvoke <com.facebook.internal.Logger: java.lang.String replaceStrings(java.lang.String)>($r2) in line 65
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.Logger: java.lang.String replaceStrings(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r0 = virtualinvoke $r0.<java.lang.String: java.lang.String replace(java.lang.CharSequence,java.lang.CharSequence)>($r6, $r7) in line 81
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 44 seconds. Maximum memory consumption: 2522 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 5 leaks

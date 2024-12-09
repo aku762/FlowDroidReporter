@@ -1,0 +1,380 @@
+[main] WARN soot.jimple.infoflow.methodSummary.data.provider.LazySummaryProvider - Lazy loading summaries from a jar/zip file might throw a ClosedChannelException. Use the EagerSummaryProvider instead.
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app C:\Users\Anthony\OneDrive - University of Luxembourg\Courses\Static & Dynamic Analysis\Project\apks\com.walkme.azores.new.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.dexpler.DexFileProvider - Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.0276348 seconds
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 4,915.35 MiB
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 46 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class androidx.core.content.FileProvider
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class androidx.startup.InitializationProvider
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 52 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.mapbox.android.telemetry.SchedulerCallback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.twitter.sdk.android.tweetui.internal.SwipeToDismissTouchListener$Callback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ContentProviderEntryPointCreator - Cannot create valid constructor for com.mapbox.android.telemetry.location.LocationEngineController, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.appcompat.widget.SearchView$SearchAutoComplete
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.appcompat.widget.SearchView
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function1, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] ERROR soot.jimple.toolkits.typing.fast.TypePromotionUseVisitor - Failed Typing in <com.airbnb.lottie.parser.ContentModelParser: com.airbnb.lottie.model.content.ContentModel parse(com.airbnb.lottie.parser.moshi.JsonReader,com.airbnb.lottie.LottieComposition)> at statement specialinvoke $u21.<com.airbnb.lottie.model.content.ShapeGroup: void <init>(java.lang.String,java.util.List,boolean)>($u4#425, $u3#424, $u11#20): Is not cast compatible: boolean <-- [0..127]
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 45 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 52 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.mapbox.android.telemetry.SchedulerCallback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.twitter.sdk.android.tweetui.internal.SwipeToDismissTouchListener$Callback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ContentProviderEntryPointCreator - Cannot create valid constructor for com.mapbox.android.telemetry.location.LocationEngineController, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.appcompat.widget.SearchView$SearchAutoComplete
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.appcompat.widget.SearchView
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function1, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.walkme.views.extended.imageviewer.OnDismissListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.walkme.views.extended.imageviewer.SwipeToDismissListener$OnViewMoveListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function1, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 25 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 52 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.mapbox.android.telemetry.SchedulerCallback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.twitter.sdk.android.tweetui.internal.SwipeToDismissTouchListener$Callback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ContentProviderEntryPointCreator - Cannot create valid constructor for com.mapbox.android.telemetry.location.LocationEngineController, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.appcompat.widget.SearchView$SearchAutoComplete
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.appcompat.widget.SearchView
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function1, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.walkme.views.extended.imageviewer.OnDismissListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.walkme.views.extended.imageviewer.SwipeToDismissListener$OnViewMoveListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function1, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 22 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 52 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.mapbox.android.telemetry.SchedulerCallback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.twitter.sdk.android.tweetui.internal.SwipeToDismissTouchListener$Callback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ContentProviderEntryPointCreator - Cannot create valid constructor for com.mapbox.android.telemetry.location.LocationEngineController, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.appcompat.widget.SearchView$SearchAutoComplete
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.appcompat.widget.SearchView
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function1, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function1, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 19 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 52 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot generate constructor for phantom class androidx.fragment.app.Fragment
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.mapbox.android.telemetry.SchedulerCallback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.twitter.sdk.android.tweetui.internal.SwipeToDismissTouchListener$Callback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ContentProviderEntryPointCreator - Cannot create valid constructor for com.mapbox.android.telemetry.location.LocationEngineController, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.appcompat.widget.SearchView$SearchAutoComplete
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.appcompat.widget.SearchView
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function1, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function0, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for kotlin.jvm.functions.Function1, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 2 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.CsrfBeanDefinitionParser: org.springframework.beans.factory.config.BeanDefinition getCsrfLogoutHandler)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.FormLoginBeanDefinitionParser: java.lang.String getLoginPage)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <com.google.auth.oauth2.UserCredentials: java.lang.String getClientSecret)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.UrlTag: java.lang.String createUrl)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.RequestData: java.lang.String getMethod)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.dmfs.oauth2.client.http.requests.ResourceOwnerPasswordTokenRequest: org.dmfs.httpclient.HttpRequestEntity requestEntity)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.concurrent.DelegatingSecurityContextExecutorService: java.util.concurrent.ExecutorService getDelegate)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.annotation.web.builders.HttpSecurity: org.springframework.security.config.'annotation'.web.configurers.HeadersConfigurer headers)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.EscapeBodyTag: java.lang.String readBodyContent)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.FormLoginBeanDefinitionParser: java.lang.String getLoginProcessingUrl)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.annotation.web.configurers.LogoutConfigurer: java.util.List getLogoutHandlers)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.RequestData: java.lang.String getHttpVersion)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.HttpServletRequestImpl: void parseParameters)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match:     
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 71 sources, 193 sinks, and 260 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 52 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on C:\Users\Anthony\OneDrive - University of Luxembourg\Courses\Static & Dynamic Analysis\Project\apks\com.walkme.azores.new.apk with 71 sources and 193 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 4,915.35 MiB
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.7542837 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 28280 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 27 sources and 283 sinks.
+[Low memory monitor] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Triggering memory warning at 5374 MB (5726 MB max, 5238 in watched memory pool)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 1718798
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 6581131
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 7952586 forward and 7197109 backward edges solved in 70 seconds, processing 10 results...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 5397 MB
+[Low memory monitor] WARN soot.jimple.infoflow.memory.FlowDroidMemoryWatcher - Running out of memory, solvers terminated
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 3989 MB
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 1 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] ERROR soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Could not wait for executor termination
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1326)
+	at heros.solver.CountLatch.awaitZero(CountLatch.java:79)
+	at heros.solver.CountingThreadPoolExecutor.awaitCompletion(CountingThreadPoolExecutor.java:86)
+	at soot.jimple.infoflow.solver.executors.InterruptableExecutor.awaitCompletion(InterruptableExecutor.java:88)
+	at soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder.computeTaintPaths(ContextSensitivePathBuilder.java:270)
+	at soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder.computeTaintPaths(BatchPathBuilder.java:47)
+	at soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder.computeTaintPaths(DefaultPathBuilderFactory.java:56)
+	at soot.jimple.infoflow.AbstractInfoflow.runTaintAnalysis(AbstractInfoflow.java:1107)
+	at soot.jimple.infoflow.AbstractInfoflow.runAnalysis(AbstractInfoflow.java:634)
+	at soot.jimple.infoflow.AbstractInfoflow.runAnalysis(AbstractInfoflow.java:567)
+	at soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow.runAnalysis(SetupApplication.java:1320)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1609)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1544)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1491)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:358)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:256)
+[FlowDroid Timeout Watcher] WARN soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - Timeout reached, stopping the solvers...
+[FlowDroid Timeout Watcher] WARN soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path reconstruction terminated due to low memory
+[main] ERROR soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Could not wait for executor termination
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedNanos(AbstractQueuedSynchronizer.java:1039)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1328)
+	at heros.solver.CountLatch.awaitZero(CountLatch.java:79)
+	at heros.solver.CountingThreadPoolExecutor.awaitCompletion(CountingThreadPoolExecutor.java:86)
+	at soot.jimple.infoflow.solver.executors.InterruptableExecutor.awaitCompletion(InterruptableExecutor.java:88)
+	at soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder.computeTaintPaths(BatchPathBuilder.java:64)
+	at soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder.computeTaintPaths(DefaultPathBuilderFactory.java:56)
+	at soot.jimple.infoflow.AbstractInfoflow.runTaintAnalysis(AbstractInfoflow.java:1107)
+	at soot.jimple.infoflow.AbstractInfoflow.runAnalysis(AbstractInfoflow.java:634)
+	at soot.jimple.infoflow.AbstractInfoflow.runAnalysis(AbstractInfoflow.java:567)
+	at soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow.runAnalysis(SetupApplication.java:1320)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1609)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1544)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1491)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:358)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:256)
+[FlowDroid Timeout Watcher] WARN soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path reconstruction terminated due to low memory
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 2 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 3998 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Path reconstruction took 34 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r19.<android.content.Intent: android.content.Intent setComponent(android.content.ComponentName)>($r18) on line 35 in method <com.walkme.managers.inapp.InAppManager: void connect()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r12 = virtualinvoke $r11.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r9, 0) on line 26 in method <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r12 = virtualinvoke $r11.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r9, 0) in line 26
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r13 = interfaceinvoke $r12.<java.util.List: java.lang.Object get(int)>(0) in line 28
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r14 = (android.content.pm.ResolveInfo) $r13 in line 28
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r15 = $r14.<android.content.pm.ResolveInfo: android.content.pm.ServiceInfo serviceInfo> in line 29
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r16 = $r15.<android.content.pm.ServiceInfo: java.lang.String packageName> in line 30
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r18.<android.content.ComponentName: void <init>(java.lang.String,java.lang.String)>($r16, $r17) in line 33
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r19.<android.content.Intent: android.content.Intent setComponent(android.content.ComponentName)>($r18) in line 35
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink $r13 = interfaceinvoke $r7.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r2, $r10) on line 7 in method <com.walkme.managers.PreferencesManager: void saveValue(java.lang.String,java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() on line 7 in method <com.walkme.supers.App$Companion: void doSlowInit()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.supers.App$Companion: void doSlowInit()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r5 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() in line 7
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.supers.App$Companion: void doSlowInit()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r3.<com.walkme.managers.PreferencesManager: void saveValue(java.lang.String,java.lang.Object)>("user_prefs_original_locale_config_country", $r5) in line 7
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: void saveValue(java.lang.String,java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r9 = virtualinvoke $r3.<java.lang.Object: java.lang.String toString()>() in line 2
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: void saveValue(java.lang.String,java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r9) in line 5
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: void saveValue(java.lang.String,java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r9 = virtualinvoke $r1.<java.lang.StringBuilder: java.lang.String toString()>() in line 5
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: void saveValue(java.lang.String,java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r10 = virtualinvoke $r11.<com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>($r9, $r10) in line 6
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r6 = virtualinvoke $r3.<java.lang.String: char[] toCharArray()>() in line 2
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $c3 = $r6[$i2] in line 6
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $c3 = $c3 ^ $c5 in line 6
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r1[$i2] = $c3 in line 6
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r3.<java.lang.String: void <init>(char[])>($r1) in line 7
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r7 = virtualinvoke $r3.<java.lang.String: byte[] getBytes()>() in line 8
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r3 = staticinvoke <android.util.Base64: java.lang.String encodeToString(byte[],int)>($r7, 2) in line 9
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r3 in line 9
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: void saveValue(java.lang.String,java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r13 = interfaceinvoke $r7.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r2, $r10) in line 7
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r10 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() on line 13 in method <com.walkme.managers.PreferencesManager: java.lang.String getLanguage()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: java.lang.String getLanguage()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r10 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() in line 13
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: java.lang.String getLanguage()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r3 = staticinvoke <com.facebook.FacebookSdk$$ExternalSyntheticLambda3: java.lang.String m(java.lang.String,java.lang.String,java.lang.String)>($r3, "_", $r10) in line 14
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.FacebookSdk$$ExternalSyntheticLambda3: java.lang.String m(java.lang.String,java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r1) in line 5
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.FacebookSdk$$ExternalSyntheticLambda3: java.lang.String m(java.lang.String,java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r3 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.String toString()>() in line 6
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.FacebookSdk$$ExternalSyntheticLambda3: java.lang.String m(java.lang.String,java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r3 in line 6
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: java.lang.String getLanguage()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke r0.<com.walkme.managers.PreferencesManager: void setLanguage(java.lang.String)>($r3) in line 15
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: void setLanguage(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke r0.<com.walkme.managers.PreferencesManager: void saveValue(java.lang.String,java.lang.Object)>("preferences_language", $r1) in line 2
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: void saveValue(java.lang.String,java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r9 = virtualinvoke $r3.<java.lang.Object: java.lang.String toString()>() in line 2
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: void saveValue(java.lang.String,java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r9) in line 5
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: void saveValue(java.lang.String,java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r9 = virtualinvoke $r1.<java.lang.StringBuilder: java.lang.String toString()>() in line 5
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: void saveValue(java.lang.String,java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r10 = virtualinvoke $r11.<com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>($r9, $r10) in line 6
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r6 = virtualinvoke $r3.<java.lang.String: char[] toCharArray()>() in line 2
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $c3 = $r6[$i2] in line 6
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $c3 = $c3 ^ $c5 in line 6
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r1[$i2] = $c3 in line 6
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r3.<java.lang.String: void <init>(char[])>($r1) in line 7
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r7 = virtualinvoke $r3.<java.lang.String: byte[] getBytes()>() in line 8
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r3 = staticinvoke <android.util.Base64: java.lang.String encodeToString(byte[],int)>($r7, 2) in line 9
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.security.WMSecurityManager: java.lang.String XOR(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r3 in line 9
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.PreferencesManager: void saveValue(java.lang.String,java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r13 = interfaceinvoke $r7.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r2, $r10) in line 7
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink $r17 = virtualinvoke $r4.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r16, null, null, null, null) on line 10 in method <com.walkme.utils.Utils: boolean isScreenReaderActive_pre_and_postAPI14(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r3 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r1, 0) on line 3 in method <com.walkme.utils.Utils: boolean isScreenReaderActive_pre_and_postAPI14(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.utils.Utils: boolean isScreenReaderActive_pre_and_postAPI14(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r3 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r1, 0) in line 3
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.utils.Utils: boolean isScreenReaderActive_pre_and_postAPI14(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r9 = interfaceinvoke $r3.<java.util.List: java.util.Iterator iterator()>() in line 9
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.utils.Utils: boolean isScreenReaderActive_pre_and_postAPI14(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r6 = interfaceinvoke $r9.<java.util.Iterator: java.lang.Object next()>() in line 9
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.utils.Utils: boolean isScreenReaderActive_pre_and_postAPI14(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r13 = (android.content.pm.ResolveInfo) $r6 in line 9
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.utils.Utils: boolean isScreenReaderActive_pre_and_postAPI14(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r14 = $r13.<android.content.pm.ResolveInfo: android.content.pm.ServiceInfo serviceInfo> in line 14
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.utils.Utils: boolean isScreenReaderActive_pre_and_postAPI14(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r12 = $r14.<android.content.pm.ServiceInfo: java.lang.String packageName> in line 14
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.utils.Utils: boolean isScreenReaderActive_pre_and_postAPI14(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r15.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r12) in line 10
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.utils.Utils: boolean isScreenReaderActive_pre_and_postAPI14(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r12 = virtualinvoke $r15.<java.lang.StringBuilder: java.lang.String toString()>() in line 10
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.utils.Utils: boolean isScreenReaderActive_pre_and_postAPI14(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r16 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>($r12) in line 10
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.utils.Utils: boolean isScreenReaderActive_pre_and_postAPI14(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r17 = virtualinvoke $r4.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r16, null, null, null, null) in line 10
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink $z0 = virtualinvoke $r6.<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>($r19, $r8, 1) on line 37 in method <com.walkme.managers.inapp.InAppManager: void connect()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r12 = virtualinvoke $r11.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r9, 0) on line 26 in method <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r12 = virtualinvoke $r11.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r9, 0) in line 26
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r13 = interfaceinvoke $r12.<java.util.List: java.lang.Object get(int)>(0) in line 28
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r14 = (android.content.pm.ResolveInfo) $r13 in line 28
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r15 = $r14.<android.content.pm.ResolveInfo: android.content.pm.ServiceInfo serviceInfo> in line 29
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r17 = $r15.<android.content.pm.ServiceInfo: java.lang.String name> in line 31
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r18.<android.content.ComponentName: void <init>(java.lang.String,java.lang.String)>($r16, $r17) in line 33
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r19.<android.content.Intent: android.content.Intent setComponent(android.content.ComponentName)>($r18) in line 35
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.walkme.managers.inapp.InAppManager: void connect()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $z0 = virtualinvoke $r6.<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>($r19, $r8, 1) in line 37
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r18.<android.os.BaseBundle: void putString(java.lang.String,java.lang.String)>("advertiser_id", $r4) on line 10 in method <com.facebook.UserSettingsManager$$ExternalSyntheticLambda0: void run()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r15 = interfaceinvoke $r30.<android.database.Cursor: java.lang.String getString(int)>($i4) on line 53 in method <com.facebook.internal.AttributionIdentifiers$Companion: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.AttributionIdentifiers$Companion: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r15 = interfaceinvoke $r30.<android.database.Cursor: java.lang.String getString(int)>($i4) in line 53
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.AttributionIdentifiers$Companion: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r13.<com.facebook.internal.AttributionIdentifiers: java.lang.String androidAdvertiserIdValue> = $r15 in line 54
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.AttributionIdentifiers$Companion: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke r0.<com.facebook.internal.AttributionIdentifiers$Companion: com.facebook.internal.AttributionIdentifiers cacheAndReturnIdentifiers(com.facebook.internal.AttributionIdentifiers)>($r13) in line 58
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.AttributionIdentifiers$Companion: com.facebook.internal.AttributionIdentifiers cacheAndReturnIdentifiers(com.facebook.internal.AttributionIdentifiers)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r1 in line 3
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.AttributionIdentifiers$Companion: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return $r13 in line 58
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.UserSettingsManager$$ExternalSyntheticLambda0: void run()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke $r8.<com.facebook.internal.AttributionIdentifiers: java.lang.String getAndroidAdvertiserId()>() in line 7
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.AttributionIdentifiers: java.lang.String getAndroidAdvertiserId()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return null in line 3
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.UserSettingsManager$$ExternalSyntheticLambda0: void run()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r4 = virtualinvoke $r8.<com.facebook.internal.AttributionIdentifiers: java.lang.String getAndroidAdvertiserId()>() in line 8
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.AttributionIdentifiers: java.lang.String getAndroidAdvertiserId()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> r3 = r0.<com.facebook.internal.AttributionIdentifiers: java.lang.String androidAdvertiserIdValue> in line 3
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.internal.AttributionIdentifiers: java.lang.String getAndroidAdvertiserId()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> return r3 in line 3
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.facebook.UserSettingsManager$$ExternalSyntheticLambda0: void run()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r18.<android.os.BaseBundle: void putString(java.lang.String,java.lang.String)>("advertiser_id", $r4) in line 10
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 114 seconds. Maximum memory consumption: 5397 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 5 leaks
