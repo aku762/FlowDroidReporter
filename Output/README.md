@@ -7,6 +7,20 @@ This repository contains the results of FlowDroid taint analysis performed on 10
 
 The analysis was conducted on a MinisForum Venus EM780 MiniPC running Windows 11, leveraging 16 CPU threads and 32GB of RAM. Each timeout configuration allocated specific proportions of time for callback collection (-ct), main data flow analysis (-dt), and result collection (-rt).
 
+### Timeout Configuration Details:
+- **60-Second Timeout**:
+  - Callback Collection (-ct): 15 seconds
+  - Main Data Flow Analysis (-dt): 35 seconds
+  - Result Collection (-rt): 10 seconds
+- **300-Second Timeout**:
+  - Callback Collection (-ct): 60 seconds
+  - Main Data Flow Analysis (-dt): 210 seconds
+  - Result Collection (-rt): 30 seconds
+- **1200-Second Timeout**:
+  - Callback Collection (-ct): 240 seconds
+  - Main Data Flow Analysis (-dt): 840 seconds
+  - Result Collection (-rt): 120 seconds
+
 ---
 
 ## Analyzed APKs
@@ -93,4 +107,3 @@ For further details on the analysis configuration, refer to the [FlowDroid GitHu
 ---
 
 If you have questions or need assistance interpreting the results, feel free to reach out!
-
