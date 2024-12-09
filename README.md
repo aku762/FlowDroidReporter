@@ -167,7 +167,3 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 - **FlowDroid**: For providing the static analysis tool that generates the XML outputs.
 - **OpenAI**: For the LLM integration enabling insightful analyses.
 - **Matplotlib and NetworkX**: For graph visualization tools.
-
----
-
-### Let me know if you'd like further edits!
