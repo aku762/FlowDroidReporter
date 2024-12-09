@@ -1,5 +1,5 @@
 from llm_analysis import summarize_sources_and_sinks, query_llm
-from graph_generator import generate_static_graph_with_gdpr_caption
+from graph_generator import generate_static_graph
 import xml.etree.ElementTree as ET
 import pandas as pd
 
@@ -80,7 +80,13 @@ def main(file_path):
 
         # Generate a static graph
         print("Generating static graph...")
-        generate_static_graph_with_gdpr_caption(df, file_path.split("/")[-1].split("\\")[-1], feedback["gdpr_compliance"])
+        generate_static_graph(df, file_path.split("/")[-1].split("\\")[-1])
+
+        # Spring layout with adjusted repulsion
+        #generate_static_graph(df, file_path.split("/")[-1].split("\\")[-1], layout_type="spring", k=1.0, scale=3.0)
+
+        # Circular layout for clear visualization
+       #generate_static_graph(df, file_path.split("/")[-1].split("\\")[-1], layout_type="circular")
 
         print("Done! Graph has been generated.")
     
